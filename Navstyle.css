@@ -1,0 +1,52 @@
+/* Navbar Start*/
+.navitem {
+  float: left;
+}
+
+.navlink {
+  display: block;
+  padding: 14px 16px;
+  background-color: #1a374d;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  font-size: 18px;
+}
+
+.navbar {
+  background-color: #1a374d;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+.navimg {
+  display: block;
+  padding: 5px 5px;
+}
+
+.navlink:hover {
+  background-color: #b1d0e0;
+}
+
+.active {
+  background-color: #b1d0e0;
+}
+
+.nav-hidden {
+  visibility: hidden;
+}
+.nav-visible {
+  visibility: visible;
+}
+
+@media only screen and (min-width: 768px) {
+  .navlink {
+    font-size: 20px;
+  }
+}

@@ -1,0 +1,178 @@
+/*Background*/
+html {
+  background-color: #b1d0e025;
+}
+/*header*/
+header {
+  text-align: center;
+  padding: 40px;
+  border-bottom: 2px solid #1a374d;
+}
+.header {
+  padding-top: 20px;
+}
+.headertitle {
+  color: #1a374d;
+  background-color: #b1d0e0;
+  border-radius: 10px;
+  padding: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+  font-size: 38px;
+}
+/*Card Design*/
+div.card {
+  background-color: white;
+  width: 90%;
+  height: 40vh;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 10px;
+}
+
+.title {
+  font-size: 30px;
+  padding-top: 1vh;
+}
+.text {
+  /*
+  padding-left: 15px;
+  padding-right: 15px;
+  */
+  font-size: 16px;
+  height: fit-content;
+  margin: 0 15px 0 15px;
+}
+
+a.link {
+  color: #1a374d;
+}
+.image {
+  width: 50%;
+  height: auto;
+}
+/*Font*/
+h1,
+h2 {
+  font-family: "Abril Fatface", serif;
+}
+p,
+a {
+  font-family: "Poppins", sans-serif;
+}
+/*Divider*/
+hr.theme1 {
+  border: 1px solid #406882;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+/*Progress bar for html and css design*/
+.container {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #1a374d;
+}
+.progress {
+  text-align: right;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+}
+.html {
+  width: 20%;
+  background-color: #b1d0e0;
+  text-align: center;
+}
+.css {
+  width: 80%;
+  background-color: #b1d0e0;
+  text-align: center;
+}
+/*Footer Divider*/
+.footerDivider {
+  border: 2px solid #1a374d;
+}
+/*Text size & layout change for bigger screens*/
+@media only screen and (min-width: 768px) {
+  /*Grid layout*/
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: 100%;
+  }
+  .grid-item {
+    padding: 0px;
+  }
+  .item1 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+  }
+  .item2 {
+    grid-column-start: 3;
+    grid-column-end: 4;
+  }
+  .item3 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+  }
+  .item4 {
+    grid-column-start: 3;
+    grid-column-end: 4;
+  }
+  .item5 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+  }
+  .item6 {
+    grid-column-start: 3;
+    grid-column-end: 4;
+  }
+  .item7 {
+    grid-column-end: 1;
+    grid-column-start: 2;
+  }
+  .item8 {
+    grid-column-end: 3;
+    grid-column-start: 4;
+  }
+  .card {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  div.card {
+    height: 280px;
+  }
+  .text {
+    padding-top: 2vh;
+    font-size: 17px;
+  }
+  .title {
+    font-size: 35px;
+  }
+  .headertitle {
+    font-size: 40px;
+  }
+}
+/*Text Change for smaller screens*/
+@media only screen and (max-width: 768px) {
+  .text {
+    padding-top: 3.5vmax;
+    padding-bottom: 0;
+  }
+}
+/*Text height change (for card design) for even smaller screens*/
+@media screen and (max-width: 375px) {
+  .text {
+    padding-top: 2vh;
+    padding-bottom: 0;
+  }
+  div.card {
+    height: 50vh;
+  }
+}

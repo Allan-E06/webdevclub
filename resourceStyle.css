@@ -1,0 +1,11 @@
+.title {
+    text-align: center;
+}
+.List {
+    width: 50vw;
+    margin-right: auto;
+    margin-left: auto;
+}
+li {
+    font-family: 'Poppins';
+}

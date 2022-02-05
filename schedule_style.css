@@ -1,0 +1,117 @@
+/*header styling start*/
+header {
+  text-align: center;
+  /*margin-top: 25px;*/
+  padding: 40px;
+  border-bottom: 2px solid #1a374d;
+}
+
+.header {
+  padding-top: 20px;
+}
+
+.headertitle {
+  color: #1a374d;
+  background-color: #b1d0e0;
+  border-radius: 10px;
+  padding: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+  font-size: 38px;
+}
+
+/*header styling End*/
+/*Background Color Start*/
+html {
+  background-color: #b1d0e021;
+}
+
+/*Background Color End*/
+
+table,
+td,
+th,
+tr {
+  border: 1px solid #1a374d;
+}
+
+table,
+td,
+th {
+  border-collapse: collapse;
+}
+
+table {
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+/*Progress Bar Start*/
+
+.container {
+  width: 100%;
+  background-color: #1a374d;
+}
+
+.progress {
+  text-align: right;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+}
+
+.bar {
+  width: calc(5.88% * 0);
+  background-color: #b1d0e0;
+  text-align: center;
+}
+
+.title {
+  padding-top: 10px;
+  text-align: center;
+}
+
+/*Progress Bar END*/
+h1,
+h2 {
+  font-family: "Abril Fatface", serif;
+}
+
+p,
+a,
+li,
+th,
+td,
+.progress {
+  font-family: "Poppins", sans-serif;
+}
+
+.footerDivider {
+  border: 2px solid #1a374d;
+}
+
+/*Text size change for bigger screens: Start*/
+@media only screen and (min-width: 768px) {
+  h1 {
+    font-size: 40px;
+  }
+
+  h2 {
+    font-size: 35px;
+  }
+
+  p,
+  li {
+    font-size: 17px;
+  }
+
+  .text {
+    padding-top: 2%;
+  }
+}
+
+/*Text size change for bigger screens: End*/

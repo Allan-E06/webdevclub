@@ -1,0 +1,86 @@
+@media screen and (prefers-reduced-motion: reduce) {
+    .animate { animation: none !important; }
+  }
+
+/*Animation Start*/
+.animate.pop {
+    animation-duration: 0.5s;
+    animation-name: animate-pop;
+    animation-timing-function: cubic-bezier(.26, .53, .74, 1.48);
+    animation-fill-mode: backwards;
+  }
+  
+@keyframes animate-pop {
+    0% {
+      opacity: 0;
+      transform: scale(0.5, 0.5);
+    }
+  
+    100% {
+      opacity: 1;
+      transform: scale(1, 1);
+    }
+  }
+  .animate.glow {
+    animation-name: animate-glow;
+    animation-timing-function: ease;
+}
+  
+@keyframes animate-glow {
+    0% {
+      opacity: 0;
+      filter: brightness(3) saturate(3);
+      transform: scale(0.8, 0.8);
+    }
+    99% {
+      opacity: 1;
+      filter: brightness(1) saturate(1);
+      transform: scale(1, 1);
+    }
+  }
+
+.grow {
+    animation-delay: 1.3s;
+    animation-duration: 0.5s;
+    animation-name: animate-grow;
+    animation-timing-function: linear;
+    animation-fill-mode: backwards;
+
+}
+@keyframes animate-grow {
+    0% {
+        transform: scale(1.5,1.5);
+    }
+    100% {
+        transform: scale(1,1);
+    }
+}
+.entrance {
+    animation-delay: 1s;
+    animation-duration: 0.4s;
+    animation-name: inleft;
+    animation-timing-function: linear;
+    animation-fill-mode: backwards;
+}
+@keyframes inleft {
+    0% {
+        transform: translate(-200%,0%) scale(0.2,0.2);
+        opacity: 0;
+        
+    }
+    80% {
+        transform: translate(0%,0%);
+        transform: scale(1.5,1.5);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1,1);
+    }
+}
+
+
+.delay-1 { animation-delay: 0.6s; }  
+.delay-2 { animation-delay: 0.7s; }
+.delay-3 { animation-delay: 0.8s; }
+.delay-4 { animation-delay: 0.9s; }
+/*Animation End*/
