@@ -97,6 +97,13 @@ hr.theme1 {
 .footerDivider {
   border: 2px solid #1a374d;
 }
+footer {
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  right: 0;
+}
 /*Text size & layout change for bigger screens*/
 @media only screen and (min-width: 768px) {
   /*Grid layout*/
