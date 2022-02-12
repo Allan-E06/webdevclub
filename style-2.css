@@ -1,0 +1,99 @@
+/*For Updated Club Homepage*/
+
+
+table, tr, th, td {
+    border: 2px solid #1a374d;
+}
+table, tr, td {
+    border-collapse: collapse;
+}
+table {
+    width: 95vw;
+    margin: 20px auto 0 auto;
+    text-align: center;
+}
+th, td {
+    padding: 5px;
+    font-family: 'Poppins';
+}
+caption {
+    font-family: 'Abril Fatface';
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+/*Baseline Design*/
+div.strip {
+    margin: 50px auto 0 auto;
+    border-radius: 30px 5px;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 20px;
+}
+div.strip1 {
+    background-color: #406882;
+}
+div.strip2 {
+    height: 35vh;
+}
+h2.subtitle {
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+p.text {
+    text-align: center;
+    margin: 0 auto;
+    padding: 0;
+}
+/*Custom Per Strip*/
+    /*Strip 1*/
+h1.strip1 {
+    color: white;
+}
+h2.strip1 {
+    color: white;
+}
+p.strip1 {
+    color: white;
+}
+    /*Strip 2*/
+h1.strip2 {
+    color: black;
+}
+h2.strip2 {
+    color: black;
+}
+p.strip2 {
+    color: black;
+}
+
+.container {
+    width: 95%;
+    background-color: #6998AB;
+}
+  
+.progress {
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+} 
+.bar {
+    border-radius: 0 5px 5px 0;
+} 
+.bar.classper {
+    width: calc(5.88% * 0);
+    background-color: #b1d0e0;
+    text-align: center;
+}
+.bar.html {
+    width: calc(25% * 0);
+    background-color: #b1d0e0;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.bar.css {
+    width: calc(10% * 0);
+    background-color: #b1d0e0;
+    text-align: center;
+}
