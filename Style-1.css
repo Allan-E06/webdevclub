@@ -99,7 +99,8 @@ hr.theme1 {
 }
 footer {
   text-align: center;
-  position: fixed;
+  position: relative;
+  display: block;
   width: 100%;
   bottom: 0;
   right: 0;
