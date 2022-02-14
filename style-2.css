@@ -2,7 +2,7 @@
 
 
 table, tr, th, td {
-    border: 2px solid #1a374d;
+    border-bottom: 2px solid #1a374d;
 }
 table, tr, td {
     border-collapse: collapse;
@@ -15,6 +15,9 @@ table {
 th, td {
     padding: 5px;
     font-family: 'Poppins';
+}
+tr:hover {
+    background-color: #b1d0e0;
 }
 caption {
     font-family: 'Abril Fatface';
