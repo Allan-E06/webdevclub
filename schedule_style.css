@@ -65,7 +65,7 @@ table {
 }
 
 .bar {
-  width: calc(5.88% * 0);
+  width: calc(5.88% * 1);
   background-color: #b1d0e0;
   text-align: center;
 }
