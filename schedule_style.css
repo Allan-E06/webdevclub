@@ -65,7 +65,7 @@ table {
 }
 
 .bar {
-  width: calc(7% * 6);
+  width: calc(7% * 7);
   background-color: #b1d0e0;
   text-align: center;
 }
@@ -127,4 +127,9 @@ footer {
 #Schedule-full a {
   text-align: center;
   color: #1a374d;
+}
+.sprbre {
+  text-align: center;
+  color: black;
+  background: linear-gradient(to right, #cef4f8, #d1cceb, #fed3d9, #fdf0d7, #c5ebd5);
 }
