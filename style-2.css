@@ -82,7 +82,7 @@ p.strip2 {
     border-radius: 0 5px 5px 0;
 } 
 .bar.classper {
-    width: calc(7% * 7);
+    width: calc(7% * 9);
     background-color: #b1d0e0;
     text-align: center;
 }
@@ -100,4 +100,9 @@ p.strip2 {
 
 #quote {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.sprbre {
+  text-align: center;
+  color: black;
+  background: linear-gradient(to right, #cef4f8, #d1cceb, #fed3d9, #fdf0d7, #c5ebd5);
 }
