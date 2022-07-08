@@ -33,7 +33,7 @@ div.strip1 {
     background-color: #406882;
 }
 div.strip2 {
-    height: 35vh;
+    height: fit-content;
 }
 h2.subtitle {
     text-align: center;
