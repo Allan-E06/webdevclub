@@ -21,3 +21,36 @@ Video {
     width: 50%;
     border: 1.5px solid white;
   }
+  img {
+    position: fixed;
+
+    width: 100%;
+  }
+  .Mtitle {
+    text-align: center;
+    color: white;
+    margin-top: 25%;
+  }
+
+
+#video {
+    visibility: hidden;
+    display: none;
+}
+html {
+    background-color: #b1d0e0;
+}
+@media only screen and (min-width: 768px) {
+    #video {
+        visibility: visible;
+        display: block;
+    }
+    #mobile {
+        visibility: hidden;
+        display: none;
+    }
+    html {
+        background-color: white;
+    }
+
+}
