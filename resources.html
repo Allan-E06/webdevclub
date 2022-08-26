@@ -1,47 +1,98 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <link rel="stylesheet" href="Style-1.css">
-        <link rel="stylesheet" href="Navstyle.css">
-        <link rel="stylesheet" href="resourceStyle.css">
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Abril+Fatface|Poppins">
-        <title>Resources | Web Dev Club</title>
-        <link rel="shortcut icon" type="image/x-icon" href="assets/Favicon_180.png">
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    </head>
-    <body>
-        <nav class="nav-active">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resources | WDC</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="script.js"></script>
+    <link rel="shortcut icon" href="assets/RD Logo_1080_3.jpeg" type="image/x-icon">
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-WDYN8TZN7R"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-WDYN8TZN7R');
+    </script>
+    <!-- Primary Meta Tags -->
+    <meta name="title" content="Website Development Club">
+    <meta name="description" content="A school club at Francisco Bravo Medical Magnet  High School, where students learn the fundamentals of developing a website using basic coding languages (HTML5 and CSS3)">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://bmmhswebdev.club/">
+    <meta property="og:title" content="Website Development Club">
+    <meta property="og:description" content="A school club at Francisco Bravo Medical Magnet  High School, where students learn the fundamentals of developing a website using basic coding languages (HTML5 and CSS3)">
+    <meta property="og:image" content="assets/RD Logo_1080_3.jpeg">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://bmmhswebdev.club/">
+    <meta property="twitter:title" content="Website Development Club">
+    <meta property="twitter:description" content="A school club at Francisco Bravo Medical Magnet  High School, where students learn the fundamentals of developing a website using basic coding languages (HTML5 and CSS3)">
+    <meta property="twitter:image" content="assets/RD Logo_1080_3.jpeg">
+</head>
+<body>
+    <nav>
+        <div class="mobilenav">
+            <div class="topnav">
+                <a href="index.html" class="mnavtitle">Website Development Club</a>
+                <!-- Navigation links (hidden by default) -->
+                <div id="myLinks">
+                  <a href="Schedule.html">Schedule</a>
+                  <a href="WD101.html">WD 101</a>
+                  <a href="resources.html" class="active">Resources</a>
+                </div>
+                <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                  <i class="fa fa-bars"></i>
+                </a>
+              </div>
+        </div>
+        <div class="fullnav">
+            <hr class="navhr">
+            <span class="navtitle">Website Development Club</span>
             <ul class="navbar">
-                <li class="navitem"><a class="navlink" href="index.html">Home</a></li>
-                <li class="navitem"><a class="navlink" href="Schedule.html">Schedule</a></li>
+                <li class="navitem"><a href="WD101.html" class="navlink">WD 101</a></li>
                 <li class="navitem"><a class="navlink active" href="resources.html">Resources</a></li>
+                <li class="navitem"><a class="navlink" href="Schedule.html">Schedule</a></li>
+                <li class="navitem"><a class="navlink" href="index.html">Home</a></li>
             </ul>
-        </nav>
-        <header>
-            <div class="header">
-                <h1 class="headertitle">Resources</h1>
-            </div>
-        </header>
-        <main>
-            <h2 class="title">Online Code Editors</h2>
-            <ul class="List">
-                <li><a href="https://vscode.dev" target="_blank">Visual Studio Code</a></li>
-                <li><a href="https://codesandbox.io/s" target="_blank">Code SandBox</a></li>
-                <li><a href="http://www.cssdesk.com/" target="_blank">CSSDESK</a></li>
-                <li><a href="https://glitch.com" target="_blank">Glitch</a></li>
-                <li><a href="https://jsfiddle.net" target="_blank">JSFiddle</a></li>
-                <li><a href="https://codepen.io" target="_blank">CodePen</a></li>
-                <li><a href="https://playcode.io/html5/" target="_blank">Play Code</a></li>
-            </ul>
-        </main>
-        <footer>
+        </div>
+    </nav>
+    <header class="regHeader">
+        <h1>Resources</h1>
+        <hr>
+    </header>
+    <main id="resourcesList">
+        <h2 class="title">Online Code Editors</h2>
+        <ul class="List" id="OCEList">
+            <li><a href="https://vscode.dev" target="_blank">Visual Studio Code</a></li>
+            <li><a href="https://codesandbox.io/s" target="_blank">Code SandBox</a></li>
+            <li><a href="http://www.cssdesk.com/" target="_blank">CSSDESK</a></li>
+            <li><a href="https://glitch.com" target="_blank">Glitch</a></li>
+            <li><a href="https://jsfiddle.net" target="_blank">JSFiddle</a></li>
+            <li><a href="https://codepen.io" target="_blank">CodePen</a></li>
+            <li><a href="https://playcode.io/html5/" target="_blank">Play Code</a></li>
+        </ul>
+        <h2 class="title">Test Your Knowledge</h2>
+        <ul class="List">
+            <li><a href="https://forms.gle/Eez2qGVxQhDsUmwPA">HTML5 Quiz</a></li>
+            <li><a href="https://forms.gle/m2HVdDqW26JiTQXR9">CSS3 Quiz</a></li>
+        </ul>
+    </main>
+    <footer>
+        <address style="text-align: center;">
             <hr class="footerDivider">
-            <address>
-                <p>Website Development Club</p>
-                <p><a href="mailto:contact@bmmhswebdev.club" style="color: #1a374d">contact@bmmhswebdev.club</a></p>
-                <p><time datetime="2022">2022</time></p>
-            </address>
-        </footer>
-    </body>
+            <p>Website Development Club</p>
+            <p><a href="mailto:contact@bmmhswebdev.club" style="color: #1a374d">contact@bmmhswebdev.club</a></p>
+            <p><time datetime="2021">2022</time></p>
+        </address>
+    </footer>
+</body>
 </html>
