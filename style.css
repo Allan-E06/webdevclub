@@ -87,6 +87,16 @@ nav {
     .regHeader {
         margin-top: 100px;
     }
+    h1 {
+        font-size: 40px;
+    }
+    h2 {
+        font-size: 36px;
+    }
+    p, a, td, li{
+        font-size: 16px;
+    }
+
   }
 /*Header*/
 header {
@@ -160,7 +170,8 @@ header>hr {
     display: block;
 }
 #SchButtonBar {
-    margin: 0 auto;
+    display: flex;
+    justify-content: center;
 }
 .schlink:hover {
     border-bottom: 1px solid #171f31;
@@ -169,6 +180,9 @@ header>hr {
     display: none;
     font-family: 'Poppins';
     margin: 0 auto;
+}
+#Year1 {
+    display: block;
 }
 .tablink {
     background-color: #171f31;
@@ -179,4 +193,20 @@ header>hr {
     padding: 14px 16px;
     font-size: 17px;
     width: 25%;
+    margin-left: 10px;
   }
+  .grupScheTable {
+    border: 1px solid #171f31;
+    width: 95%;
+    margin: 0 auto;
+  }
+    table,
+    td,
+    th,
+    tr {
+    border: 1px solid #1a374d;
+    border-collapse: collapse;
+    }
+    td:nth-child(odd) {
+        text-align: center;
+    }
