@@ -28,3 +28,28 @@ function myFunction() {
   
   // Get the element with id="defaultOpen" and click on it
   document.getElementById("defaultOpen").click();
+
+  // Get the element with id="defaultOpen" and click on it
+  document.getElementById("defaultOpen").click();
+
+  document.addEventListener("DOMContentLoaded", function() {
+    // Select the pop-up and close button elements
+    var popup = document.getElementById("popup");
+    var closeBtn = document.getElementById("closeBtn");
+
+    // Function to show the pop-up
+    function showPopup() {
+        popup.style.display = "block";
+    }
+
+    // Function to hide the pop-up
+    function hidePopup() {
+        popup.style.display = "none";
+    }
+
+    // Show the pop-up after 5 seconds (adjust the timeout value as needed)
+    setTimeout(showPopup, 5000);
+
+    // Close the pop-up when the close button is clicked
+    closeBtn.addEventListener("click", hidePopup);
+});
