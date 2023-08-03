@@ -27,7 +27,7 @@ function myFunction() {
   }
   
   // Get the element with id="defaultOpen" and click on it
-  document.getElementById("defaultOpen").click();
+  //document.getElementById("defaultOpen").click();
 
   document.addEventListener("DOMContentLoaded", function() {
     // Select the pop-up and close button elements
@@ -45,7 +45,8 @@ function myFunction() {
     }
 
     // Show the pop-up after 5 seconds (adjust the timeout value as needed)
-    setTimeout(showPopup, 5000);
+    setTimeout(showPopup, 1000);
+  
 
     // Close the pop-up when the close button is clicked
     closeBtn.addEventListener("click", hidePopup);
