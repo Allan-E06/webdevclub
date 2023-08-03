@@ -117,7 +117,7 @@ header {
 h1, h2 {
     font-family: 'Abril FatFace';
 }
-p, a {
+p, a, button {
     font-family: 'Poppins';
 }
 
@@ -132,7 +132,7 @@ main {
     margin: auto;
 }
 
-.section:nth-child(odd) {
+.section:nth-child(even) {
     background-color: #b1d0e0;
 }
 .section {
@@ -209,4 +209,37 @@ header>hr {
     }
     td:nth-child(odd) {
         text-align: center;
+    }
+    /* Styles for the pop-up container */
+    .popup {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 120vw;
+        height: 100vh;
+        background-color: rgba(177, 208, 224, 0.7);
+
+    }
+
+    .popup-content {
+        display: flex; /* Use Flexbox to align items */
+        flex-direction: column;
+        align-items: center; /* Center items horizontally */
+        justify-content: center; /* Center items vertically */
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-65%, -50%);
+        padding: 20px;
+        background-color: #fff;
+        border-radius: 5px 15px;
+        border: 1px #171f31 solid;
+    }
+    div.popup-content>button {
+        background-color: rgba(177, 208, 224, 0.7);
+        border: 1px #171f31 solid;
+        border-radius: 5px;
+        padding: 4px 8px;
+        /*align-self: center;*/
     }
