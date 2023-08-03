@@ -29,9 +29,6 @@ function myFunction() {
   // Get the element with id="defaultOpen" and click on it
   document.getElementById("defaultOpen").click();
 
-  // Get the element with id="defaultOpen" and click on it
-  document.getElementById("defaultOpen").click();
-
   document.addEventListener("DOMContentLoaded", function() {
     // Select the pop-up and close button elements
     var popup = document.getElementById("popup");
