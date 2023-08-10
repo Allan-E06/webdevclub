@@ -243,3 +243,25 @@ header>hr {
         padding: 4px 8px;
         /*align-self: center;*/
     }
+    address {
+        text-align: center;
+    }
+    
+    div.popup-content>ul>li:nth-child(odd) {
+        margin-bottom: 8px;
+    }
+    
+    div.popup-content>ul {
+        list-style-type: "	\2B50";
+    }
+    
+    .ribbon {
+        width: 60px;
+        font-size: 14px;
+        padding: 4px;
+        text-align: center;
+        border-radius: 25px;
+        transform: rotate(20deg);
+        background-color: #FFF4A3;
+        color: black;
+    }
